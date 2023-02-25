@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#bb99bb">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DH"
+            android:id="@+id/dh"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_above="@+id/ny"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TS"
+            android:id="@+id/ts"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_above="@+id/ny"
+            android:layout_alignEnd="@+id/jar4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CH"
+            android:id="@+id/ch"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/ph"
+            android:layout_alignEnd="@+id/ts" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="NY"
+            android:id="@+id/ny"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/sh"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SH"
+            android:id="@+id/sh"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="PH"
+            android:id="@+id/ph"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/ny"
+            android:layout_alignStart="@+id/dh" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/jar1"
+            android:textSize="50sp"
+            android:layout_marginTop="0sp"
+            android:layout_alignTop="@+id/jar2"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/jar2"
+            android:textSize="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/jar3" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/jar3"
+            android:textSize="40sp"
+            android:layout_alignTop="@+id/jar5"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/jar4"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/jar3"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/jar5"
+            android:textSize="50sp"
+            android:layout_above="@+id/jar1"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/jar6"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/jar2"
+            android:layout_alignStart="@+id/jar4" />
+
+    </RelativeLayout>
+
+</ScrollView>

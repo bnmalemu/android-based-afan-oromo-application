@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#bb99bb">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QORUMSA 1FFAA"
+        android:id="@+id/man4"
+        android:background="@drawable/gradient"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QORUMSA 2FFAA"
+        android:id="@+id/man5"
+        android:background="@drawable/gradient"
+        android:textColor="#000000"
+        android:layout_below="@+id/man4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QORUMSA 3FFAA"
+        android:id="@+id/man6"
+        android:background="@drawable/gradient"
+        android:textColor="#000000"
+        android:layout_below="@+id/man5"
+        android:layout_marginTop="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

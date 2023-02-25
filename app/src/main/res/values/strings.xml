@@ -1,0 +1,891 @@
+<resources>
+
+    <!-- THIS IS PRODUCED INTERNALLY BY THE SYSTEM  -->
+
+
+    <string name="app_name">AFAN OROMO APPS FOR KIDS</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- HERE IS STRING FOR HOME   -->
+
+
+    <string name="bgn">BAGA NAGAAN DHUFTAN!</string>
+    <string name="gl">GALMEE</string>
+    <string name="strt">SEENI</string>
+
+    <!-- STRING FOR LOGIN AS CHOICE  -->
+
+    <!-- STRING FOR REGISTRATION FOR KG STUDENT -->
+
+
+    <string name="reg">GALMEEF</string>
+    <string name="use">USERNAME</string>
+    <string name="kgl">1 YKN 2 YKN 3 QOFA GALCHI</string>
+    <string name="me">Register</string>
+
+    <!-- STRING FOR LOGIN INTO APPS FOR KG STUDENT -->
+
+    <string name="jal">SEENUUF</string>
+    <string name="user">USERNAME</string>
+    <string name="seni">SEENI</string>
+
+    <!-- HERE IS STRING FOR EDUCATION ONE AFTER KG LEVEL SELECTION   -->
+
+
+    <string name="mb">MAAL BARBAADDU?</string>
+    <string name="br">BARNOOTA</string>
+    <string name="qr">QORMAATA</string>
+    <string name="tp">TAPHOOTA</string>
+    <string name="qb">QABXII</string>
+    <string name="oro">OROMIYAA</string>
+
+
+    <!-- HERE IS STRING FOR EDUCATION TWO AFTER LOGIN   -->
+
+
+    <string name="bgn1">BAGA NAGAAN DHUFTAN!</string>
+    <string name="mb1">MAAL BARBAADDU?</string>
+    <string name="br1">BARNOOTA</string>
+    <string name="qr1">QORMAATA</string>
+    <string name="tp1">TAPHOOTA</string>
+    <string name="qb1">QABXII</string>
+    <string name="oro1">OROMIYAA</string>
+
+    <!-- HERE IS STRING FOR EDUCATION THREE AFTER LOGIN   -->
+
+
+    <string name="bgn2">BAGA NAGAAN DHUFTAN!</string>
+    <string name="mb2">MAAL BARBAADDU?</string>
+    <string name="br2">BARNOOTA</string>
+    <string name="qr2">QORMAATA</string>
+    <string name="tp2">TAPHOOTA</string>
+    <string name="qb2">QABXII</string>
+    <string name="oro2">OROMIYAA</string>
+
+    <!-- HERE IS STRING FOR KG1 EDUCATION AFTER EDUCATION1  -->
+
+    <string name="bnt">BARNOOTA</string>
+    <string name="ao">AFAAN OROMOO</string>
+    <string name="ma">HERREGAA</string>
+    <string name="en">INGILIFFAA</string>
+
+
+    <!-- Resource for afan oromoo kg1 -->
+
+    <!-- the following string is used for lists of lesson  -->
+
+    <string name="kg1">BARATAA KG 1FFAA</string>
+    <string name="k1le1">BARANNOO 1FFAA</string>
+    <string name="k1le2">BARANNOO 2FFAA</string>
+    <string name="k1le3">BARANNOO 3FFAA</string>
+    <string name="k1le4">BARANNOO 4FFAA</string>
+    <string name="k1le5">BARANNOO 5FFAA</string>
+
+
+    <!-- the following string is used for lesson 1 -->
+    <string name="tts01">SAGALEEN</string>
+    <string name="vid01">VIIDIYOON</string>
+    <string name="pic01">FAKKIIN</string>
+
+    <!-- below is string for lesson 2 -->
+
+    <string name="tts02">SAGALEEN</string>
+    <string name="vid02">VIIDIYOON</string>
+    <string name="pic02">FAKKIIN</string>
+
+    <!-- the following string is used for lesson 3 -->
+
+    <string name="tts03">SAGALEEN</string>
+    <string name="vid03">VIIDIYOON</string>
+    <string name="pic03">FAKKIIN</string>
+
+    <!-- the following string is used for lesson 4 -->
+
+    <string name="tts04">SAGALEEN</string>
+    <string name="vid04">VIIDIYOON</string>
+    <string name="pic04">FAKKIIN</string>
+
+    <!-- the following string is used for lesson 5 -->
+
+    <string name="afaan05">01 BARANNOO 5FFAA</string>
+    <string name="tts05">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid05">VIIDIYOO HORDOFUUN</string>
+    <string name="pic05">FAKKII ILAALUUN</string>
+
+    <!-- the end for kg1 afan oromo lesson string -->
+
+    <!-- Resource for afan oromo kg2 -->
+
+    <!-- the following string is used for lists of lesson  -->
+
+    <string name="kg2">BARATAA KG 2FFAA</string>
+    <string name="k2le1">BARANNOO 1FFAA</string>
+    <string name="k2le2">BARANNOO 2FFAA</string>
+    <string name="k2le3">BARANNOO 3FFAA</string>
+    <string name="k2le4">BARANNOO 4FFAA</string>
+
+
+    <!-- the following string is used for lesson 1 -->
+    <string name="afaan11">02 BARANNOO 1FFAA</string>
+    <string name="tts11">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid11">VIIDIYOO HORDOFUUN</string>
+    <string name="pic11">FAKKII ILAALUUN</string>
+
+    <!-- below is string for lesson 2 -->
+
+    <string name="afaan12">02 BARANNOO 2FFAA</string>
+    <string name="tts12">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid12">VIIDIYOO HORDOFUUN</string>
+    <string name="pic12">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 3 -->
+
+    <string name="afaan13">02 BARANNOO 3FFAA</string>
+    <string name="tts13">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid13">VIIDIYOO HORDOFUUN</string>
+    <string name="pic13">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 4 -->
+
+    <string name="afaan14">02 BARANNOO 4FFAA</string>
+    <string name="tts14">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid14">VIIDIYOO HORDOFUUN</string>
+    <string name="pic14">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 5 -->
+
+    <string name="afaan15">02 BARANNOO 5FFAA</string>
+    <string name="tts15">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid15">VIIDIYOO HORDOFUUN</string>
+    <string name="pic15">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 6 -->
+
+    <string name="afaan16">02 BARANNOO 6FFAA</string>
+    <string name="tts16">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid16">VIIDIYOO HORDOFUUN</string>
+    <string name="pic16">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 7 -->
+
+    <string name="afaan17">02 BARANNOO 7FFAA</string>
+    <string name="tts17">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid17">VIIDIYOO HORDOFUUN</string>
+    <string name="pic17">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 8 -->
+
+    <string name="afaan18">02 BARANNOO 8FFAA</string>
+    <string name="tts18">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid18">VIIDIYOO HORDOFUUN</string>
+    <string name="pic18">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 9 -->
+
+    <string name="afaan19">02 BARANNOO 9FFAA</string>
+    <string name="tts19">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid19">VIIDIYOO HORDOFUUN</string>
+    <string name="pic19">FAKKII ILAALUUN</string>
+
+    <!-- end for kg2 afan oromo lesson -->
+
+    <!-- Resource for afan oromo kg3 -->
+
+    <!-- the following string is used for lists of lesson  -->
+
+    <string name="kg3">BARATAA KG 3FFAA</string>
+    <string name="k3le1">BARANNOO 1FFAA</string>
+    <string name="k3le2">BARANNOO 2FFAA</string>
+    <string name="k3le3">BARANNOO 3FFAA</string>
+    <string name="k3le4">BARANNOO 4FFAA</string>
+    <string name="k3le5">BARANNOO 5FFAA</string>
+
+
+    <!-- the following string is used for lesson 1 -->
+    <string name="afaan21">03 BARANNOO 1FFAA</string>
+    <string name="tts21">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid21">VIIDIYOO HORDOFUUN</string>
+    <string name="pic21">FAKKII ILAALUUN</string>
+
+    <!-- below is string for lesson 2 -->
+
+    <string name="afaan22">03 BARANNOO 2FFAA</string>
+    <string name="tts22">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid22">VIIDIYOO HORDOFUUN</string>
+    <string name="pic22">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 3 -->
+
+    <string name="afaan23">03 BARANNOO 3FFAA</string>
+    <string name="tts23">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid23">VIIDIYOO HORDOFUUN</string>
+    <string name="pic23">FAKKII ILAALUUN</string>
+    <!-- the following string is used for lesson 4 -->
+
+    <string name="afaan24">03 BARANNOO 4FFAA</string>
+    <string name="tts24">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid24">VIIDIYOO HORDOFUUN</string>
+    <string name="pic24">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 5 -->
+
+    <string name="afaan25">03 BARANNOO 5FFAA</string>
+    <string name="tts25">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid25">VIIDIYOO HORDOFUUN</string>
+    <string name="pic25">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 6 -->
+
+    <string name="afaan26">03 BARANNOO 6FFAA</string>
+    <string name="tts26">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid26">VIIDIYOO HORDOFUUN</string>
+    <string name="pic26">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 7 -->
+
+    <string name="afaan27">03 BARANNOO 7FFAA</string>
+    <string name="tts27">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid27">VIIDIYOO HORDOFUUN</string>
+    <string name="pic27">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 8 -->
+
+    <string name="afaan28">03 BARANNOO 8FFAA</string>
+    <string name="tts28">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid28">VIIDIYOO HORDOFUUN</string>
+    <string name="pic28">FAKKII ILAALUUN</string>
+
+    <!-- the following string is used for lesson 9 -->
+
+    <string name="afaan29">03 BARANNOO 9FFAA</string>
+    <string name="tts29">BARREEFFAMA SAGALEETTI</string>
+    <string name="vid29">VIIDIYOO HORDOFUUN</string>
+    <string name="pic29">FAKKII ILAALUUN</string>
+
+    <!--  HERE IS STRING AND ID USED FOR OBSERVING RESULTS FOR KG1 -->
+
+    <string name="res">QABXII BARNOOTA KAMII ILAALUU BARBAADDA?</string>
+    <string name="are">QABXII BARNOOTA AFAAN OROMOO</string>
+    <string name="ere">QABXII BARNOOTA HERREGAA</string>
+    <string name="mre">QABXII BARNOOTA INGILIFFAA</string>
+
+    <!--  AFAN OROMO RESULT   -->
+    <string name="aor">QABXII BARNOOTA AFAAN OROMOO</string>
+    <string name="ba1">QABXII BARANNOO 1FFAA</string>
+    <string name="ba2">QABXII BARANNOO 2FFAA</string>
+    <string name="ba3">QABXII BARANNOO 3FFAA</string>
+    <string name="ba4">QABXII BARANNOO 4FFAA</string>
+    <string name="ba5">QABXII BARANNOO 5FFAA</string>
+    <string name="tot">QABXII WALII GALAA</string>
+
+
+    <!--  HERE IS STRING AND ID USED FOR OBSERVING RESULTS FOR KG2 -->
+
+    <string name="res1">QABXII BARNOOTA KAMII ILAALUU BARBAADDA?</string>
+    <string name="are1">QABXII BARNOOTA AFAAN OROMOO</string>
+    <string name="ere1">QABXII BARNOOTA HERREGAA</string>
+    <string name="mre1">QABXII BARNOOTA INGILIFFAA</string>
+
+
+    <!--  HERE IS STRING AND ID USED FOR OBSERVING RESULTS FOR KG3 -->
+
+    <string name="res2">QABXII BARNOOTA KAMII ILAALUU BARBAADDA?</string>
+    <string name="are2">QABXII BARNOOTA AFAAN OROMOO</string>
+    <string name="ere2">QABXII BARNOOTA HERREGAA</string>
+    <string name="mre2">QABXII BARNOOTA INGILIFFAA</string>
+
+    <!-- the end!!!!  -->
+
+    <!-- HERE IS STRING FOR KG2 EDUCATION AFTER EDUCATION2  -->
+
+    <string name="bnt1">BARNOOTA</string>
+    <string name="ao1">AFAAN OROMOO</string>
+    <string name="ma1">HERREGAA</string>
+    <string name="en1">INGILIFFAA</string>
+
+
+    <!-- HERE IS STRING FOR KG3 EDUCATION  AFTER EDUCATION THREE -->
+
+    <string name="bnt2">BARNOOTA</string>
+    <string name="ao2">AFAAN OROMOO</string>
+    <string name="ma2">HERREGAA</string>
+    <string name="en2">INGILIFFAA</string>
+
+
+    <string name="or">OROMIYAA</string>
+    <string name="hp">BAKKEEWWAN SEENAA</string>
+    <string name="uf">AADAA UFFANNAA</string>
+    <string name="ny">AADAA NYAATAA</string>
+    <string name="si">AADAA SIRBAA</string>
+    <string name="sg">SIRNA GADAA</string>
+
+
+    <!-- resource for filannoo aadaa sirbaa-->
+
+    <!-- string for dancing culture of oromo people -->
+
+    <string name="siirba">AADAA SIRBA OROMOO</string>
+    <string name="shaa">SHAWAA</string>
+    <string name="wgg">WALLAGGAA</string>
+    <string name="jii">JIMMAA</string>
+    <string name="haa">HARARGEE</string>
+    <string name="baa">BAALEE</string>
+    <string name="ass">ARSII</string>
+    <string name="boo">BOORANAA</string>
+    <string name="guu">GUJII</string>
+    <string name="abbb">I/A/BOOR</string>
+    <string name="kaa">KAMISEE</string>
+
+    <!-- string for arsi song -->
+
+    <string name="ars">SIRBA AADAA ARSII</string>
+    <string name="arv">VIDEO</string>
+
+    <!-- string for bale song -->
+
+    <string name="bas">SIRBA AADAA BAALEE</string>
+    <string name="bav">VIDEO</string>
+
+    <!-- string for borana song -->
+
+    <string name="bos">SIRBA AADAA BOORANAA</string>
+    <string name="bov">VIDEO</string>
+
+    <!-- string for gujii song -->
+
+    <string name="gus">SIRBA AADAA GUJII</string>
+    <string name="guv">VIDEO</string>
+
+    <!-- string for hararge song -->
+
+    <string name="has">SIRBA AADAA HARARGEE</string>
+    <string name="hav">VIDEO</string>
+
+    <!-- string for iluu a/booraa song -->
+
+    <string name="is">SIRBA AADAA ILUU ABBAA BOORAA</string>
+    <string name="iv">VIDEO</string>
+
+    <!-- string for jimma song -->
+
+    <string name="jis">SIRBA AADAA JIMMAA</string>
+    <string name="jiv">VIDEO</string>
+
+    <!-- string for shawaa song -->
+
+    <string name="shs">SIRBA AADAA SHAWAA</string>
+    <string name="shv">VIDEO</string>
+
+    <!-- string for kamisee song -->
+
+    <string name="ks">SIRBA AADAA KAMISEE</string>
+    <string name="kv">VIDEO</string>
+
+    <!-- string for wallaggaa song -->
+
+    <string name="wls">SIRBA AADAA WALLAGGAA</string>
+    <string name="wlv">VIDEO</string>
+
+
+    <!-- END OF SONG STRING-->
+
+
+    <!-- Resource wearing culture of Oromo -->
+
+    <!--- this is the main choice of zonal -->
+
+    <string name="ufata">AADAA UFFATA OROMOO</string>
+    <string name="shaw">SHAWAA</string>
+    <string name="wll">WALLAGGAA</string>
+    <string name="jmm">JIMMAA</string>
+    <string name="hrr">HARARGEE</string>
+    <string name="bll">BAALEE</string>
+    <string name="arr">ARSII</string>
+    <string name="brr">BOORANAA</string>
+    <string name="gjj">GUJII</string>
+    <string name="abb">I/A/BOOR</string>
+    <string name="kmm">KAMISEE</string>
+
+    <!--- string for oromo shawa wearing style -->
+
+
+    <!--- string for oromo arsii wearing style -->
+
+
+    <string name="wrr">AADAA UFFATA ARSII</string>
+    <string name="wrrv">VIIDIYOON</string>
+    <string name="wrrp">FAKKIIN</string>
+
+    <!--- string for oromo bale wearing style -->
+
+    <string name="wba">AADAA UFFATA BAALEE</string>
+    <string name="wbav">VIIDIYOON</string>
+    <string name="wbap">FAKKIIN</string>
+
+
+    <!--- string for oromo borana wearing style -->
+
+    <string name="wbo">AADAA UFFATA BOORANAA</string>
+    <string name="wbov">VIIDIYOON</string>
+    <string name="wbop">FAKKIIN</string>
+
+
+    <!--- string for oromo gujii wearing style -->
+
+
+    <string name="wgu">AADAA UFFATA GUJII</string>
+    <string name="wguv">VIIDIYOON</string>
+    <string name="wgup">FAKKIIN</string>
+
+
+    <!--- string for oromo harar wearing style -->
+
+
+    <string name="wha">AADAA UFFATA HARARGEE</string>
+    <string name="whav">VIIDIYOON</string>
+    <string name="whap">FAKKIIN</string>
+
+
+    <!--- string for oromo i/aba bora wearing style -->
+
+    <string name="wlu">AADAA UFFATA ILUU ABBAA BOORAA</string>
+    <string name="wluv">VIIDIYOON</string>
+    <string name="wlup">FAKKIIN</string>
+
+
+    <!--- string for oromo jimma wearing style -->
+
+
+    <string name="wji">AADAA UFFATA JIMMAA</string>
+    <string name="wjiv">VIIDIYOON</string>
+    <string name="wjip">FAKKIIN</string>
+
+
+    <!--- string for kamisee harar wearing style -->
+
+    <string name="wka">AADAA UFFATA KAMISEE</string>
+    <string name="wkav">VIIDIYOON</string>
+    <string name="wkap">FAKKIIN</string>
+
+
+    <!--- string for oromo shawaa wearing style -->
+
+    <string name="wsh">AADAA UFFATA SHAWAA</string>
+    <string name="wshv">VIIDIYOON</string>
+    <string name="wshp">FAKKIIN</string>
+
+
+    <!--- string for oromo wallaggaa wearing style -->
+
+    <string name="wwa">AADAA UFFATA WALLAGGAA</string>
+    <string name="wwav">VIIDIYOON</string>
+    <string name="wwap">FAKKIIN</string>
+
+    <!-- end for wearing -->
+
+
+    <!-- here is the main coice -->
+
+
+    <string name="nyata">AADAA NYAATA OROMOO</string>
+    <string name="nysh">SHAWAA</string>
+    <string name="nywl">WALLAGGAA</string>
+    <string name="nyjm">JIMMAA</string>
+    <string name="nyhr">HARARGEE</string>
+    <string name="nybl">BAALEE</string>
+    <string name="nyar">ARSII</string>
+    <string name="nybr">BOORANAA</string>
+    <string name="nygj">GUJII</string>
+    <string name="nyab">I/A/BOOR</string>
+
+    <!-- end of main choice   -->
+
+    <!-- string for arsii   -->
+
+
+    <string name="ear">AADAA NYAATA ARSII</string>
+    <string name="earv">VIIDIYOON</string>
+    <string name="earp">FAKKIIN</string>
+
+
+    <!-- string for bale   -->
+
+    <string name="eba">AADAA NYAATA BAALEE</string>
+    <string name="ebav">VIIDIYOON</string>
+    <string name="ebap">FAKKIIN</string>
+
+
+    <!-- string for borana   -->
+
+    <string name="ebo">AADAA NYAATA BOORANAA</string>
+    <string name="ebov">VIIDIYOON</string>
+    <string name="ebop">FAKKIIN</string>
+
+
+    <!-- string for gujii   -->
+
+    <string name="egu">AADAA NYAATA GUJII</string>
+    <string name="eguv">VIIDIYOON</string>
+    <string name="egup">FAKKIIN</string>
+
+
+    <!-- string for harar   -->
+
+    <string name="eha">AADAA NYAATA HARARGEE</string>
+    <string name="ehav">VIIDIYOON</string>
+    <string name="ehap">BIFA FAKKIIN</string>
+
+
+    <!-- string for iluu   -->
+
+    <string name="elu">AADAA NYAATA ILUU ABBAA BOORAA</string>
+    <string name="eluv">VIIDIYOON</string>
+    <string name="elup">FAKKIIN</string>
+
+
+    <!-- string for jimma   -->
+
+    <string name="eji">AADAA NYAATA JIMMAA</string>
+    <string name="ejiv">VIIDIYOON</string>
+    <string name="ejip">FAKKIIN</string>
+
+
+    <!-- string for shawaa   -->
+
+    <string name="esh">AADAA NYAATA SHAWAA</string>
+    <string name="eshv">VIIDIYOON</string>
+    <string name="eshp">FAKKIIN</string>
+
+
+    <!-- string for wallagga   -->
+
+    <string name="ewa">AADAA NYAATA WALLAGGAA</string>
+    <string name="ewav">VIIDIYOON</string>
+    <string name="ewap">FAKKIIN</string>
+
+
+    <!-- end for eating   -->
+
+
+    <!-- here is string for gadaa system -->
+
+    <string name="gda">SIRNA GADAA</string>
+    <string name="gv">VIIDIYOON</string>
+    <string name="gp">FAKKIIN</string>
+
+
+    <!-- end for gadaa system  -->
+
+
+    <!-- here is string for historical places of oromiyaa  -->
+
+
+    <string name="bsn">BAKKEEWWAN SEENAA</string>
+    <string name="wo">WALLAGGAA</string>
+    <string name="ji">JIMMAA</string>
+    <string name="ha">HARARGEE</string>
+    <string name="ba">BAALEE</string>
+    <string name="ia">ILUU ABBAA BOORAA</string>
+
+    <!-- bale history -->
+
+    <string name="hplb">BAKKEE SEENAA BAALEE</string>
+    <string name="hplbv">VIIDIYOON</string>
+    <string name="hplbp">FAKKIIN</string>
+
+    <!-- walaga history -->
+
+    <string name="hplw">BAKKEE SEENAA WALLAGGAA</string>
+    <string name="hplwv">VIIDIYOON</string>
+    <string name="hplwp">FAKKIIN</string>
+    i
+    <!-- jimma history -->
+
+    <string name="hplj">BAKKEE SEENAA JIMMAA</string>
+    <string name="hpljv">VIIDIYOON</string>
+    <string name="hpljp">FAKKIIN</string>
+
+    <!-- harar history -->
+
+    <string name="hplh">BAKKEE SEENAA HARARGEE</string>
+    <string name="hplhv">VIIDIYOON</string>
+    <string name="hplhp">FAKKIIN</string>
+
+
+    <!-- ilu history -->
+
+    <string name="hpli">BAKKEE SEENAA ILUU ABBAA BOORAA</string>
+    <string name="hpliv">VIIDIYOON</string>
+    <string name="hplip">FAKKIIN</string>
+    <string name="hplit">BARREEFFAMAAN</string>
+
+    <!-- end -->
+
+
+    <!-- DESCRIPTION ABOUT SIRNA GADAA -->
+
+    <string name="gtf">SIRNA GADAA BARREEFFAMAAN</string>
+    <string name="gtx">Dubbisi!</string>
+
+
+    <!-- VIEW PAGER ID AND STRINGS   -->
+
+    <string name="vp1"></string>
+    <string name="sw1"></string>
+    <string name="txv"></string>
+    <string name="back">BACK</string>
+    <string name="nxt">NEXT</string>
+    <string name="tfo">BIFA FAKKIIN BARADHAA</string>
+
+
+    <!-- VIDEO STREAMING STRINGS FOR KG1   -->
+
+    <string name="v11">VIIDIYOO ILAALUUN</string>
+    <string name="mp1"></string>
+
+    <string name="gadaa">gadaa system</string>
+
+    <!-- DTRING FOR QUESTIONS -->
+
+    <string name="qor">QORMAATA</string>
+    <string name="qao">QORMAATA AFAAN OROMOO</string>
+    <string name="qhe">QORMAATA HERREGA</string>
+    <string name="qen">QORMAATA INGILIFFA</string>
+
+    <string name="les1">QORMAATA 1FFAA</string>
+    <string name="les2">QORMAATA 2FFAA</string>
+    <string name="les3">QORMAATA 3FFAA</string>
+    <string name="les4">QORMAATA 4FFAA</string>
+    <string name="les5">QORMAATA 5FFAA</string>
+
+    <string name="qus11">GAAFFII</string>
+    <string name="rgp11"></string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="rba1">FILANNOO A</string>
+    <string name="rbb1">FILANNOO B</string>
+    <string name="rbc1">FILANNOO C</string>
+    <string name="ntx">NEXT</string>
+    <string name="res11">RESULT</string>
+    <string name="id"></string>
+    <string name="maq">USERNAME KEE GUUTI</string>
+    <string name="total">QABXII ARGATTE GUUTI</string>
+    <string name="sub">SUBMIT</string>
+
+
+    <!-- STRING FOR KG ONE MATHS STUDENTS -->
+
+    <string name="bar1">BARANNOO 1FFAA</string>
+    <string name="bar2">BARANNOO 2FFAA</string>
+    <string name="bs1">SAGALEEN</string>
+    <string name="pl">+</string>
+    <string name="mi">-</string>
+    <string name="mu">*</string>
+    <string name="di">/</string>
+    <string name="vil1">VIIDIYOON</string>
+    <string name="fak1">FAKKIIN</string>
+    <string name="bs2">SAGALEEN</string>
+    <string name="vil2">VIIDIYOON</string>
+    <string name="fak2">FAKKIIN</string>
+
+    <!-- STRING FOR KG ONE STUDENTS FOR LIST VIEWS -->
+
+    <string name="thl1"></string>
+    <string name="hl1"></string>
+    <string name="thl2"></string>
+    <string name="hl2"></string>
+
+    <!-- STRING FOR KG TWO MATHS STUDENTS -->
+
+    <string name="kar1">BARANNOO 1FFAA</string>
+    <string name="kar2">BARANNOO 2FFAA</string>
+    <string name="kar3">BARANNOO 3FFAA</string>
+    <string name="ks1">SAGALEEN</string>
+    <string name="kil1">VIIDIYOON</string>
+    <string name="kak1">FAKKIIN</string>
+    <string name="ks2">SAGALEEN</string>
+    <string name="kil2">VIIDIYOON</string>
+    <string name="kak2">FAKKIIN</string>
+    <string name="ks3">SAGALEEN</string>
+    <string name="kil3">VIIDIYOON</string>
+    <string name="kak3">FAKKIIN</string>
+
+    <!-- STRING FOR KG TWO STUDENTS FOR LIST VIEWS -->
+
+    <string name="bhl1"></string>
+    <string name="bhl2"></string>
+    <string name="bhl3"></string>
+    <string name="lhl4"></string>
+
+    <!-- STRING FOR KG TWO STUDENTS -->
+
+    <string name="af2">AFAAN OROMOO</string>
+    <string name="hr2">HERREGAA</string>
+    <string name="in2">INGILIFFAA</string>
+
+    <!-- STRING FOR KG THREE STUDENTS -->
+
+    <string name="af3">AFAAN OROMOO</string>
+    <string name="hr3">HERREGAA</string>
+    <string name="in3">INGILIFFAA</string>
+    <string name="bn1">BARANNOO 1FFAA</string>
+    <string name="bn2">BARANNOO 2FFAA</string>
+    <string name="bn3">BARANNOO 3FFAA</string>
+    <string name="bn4">SAGALEEN</string>
+    <string name="bn5">VIIDIYOON</string>
+    <string name="bn6">FAKKIIN</string>
+    <string name="bn7">SAGALEEN</string>
+    <string name="bn8">VIIDIYOON</string>
+    <string name="bn9">FAKKIIN</string>
+    <string name="bn10">SAGALEEN</string>
+    <string name="bn11">VIIDIYOON</string>
+    <string name="bn12">FAKKIIN</string>
+
+
+    <!--  HERE IS STRING AND ID USED FOR ENGLISH SUBJECT -->
+
+    <string name="one">LESSON ONE</string>
+    <string name="two">LESSON TWO</string>
+    <string name="three">LESSON THREE</string>
+    <string name="four">LESSON FOUR</string>
+
+    <!-- lesson for kg2 student  -->
+
+    <string name="fiv">LESSON ONE</string>
+    <string name="six">LESSON TWO</string>
+    <string name="sev">LESSON THREE</string>
+    <string name="eig">LESSON FOUR</string>
+
+    <!-- CALCULATOR  -->
+
+    <string name="deb">DEEBII</string>
+    <string name="lak1">LAKK. 1FFAA</string>
+    <string name="lak2">LAKK. 2FFAA</string>
+    <string name="plus">+</string>
+    <string name="subt">-</string>
+    <string name="mult">*</string>
+    <string name="divi">/</string>
+
+    <string name="debi">DEEBII</string>
+    <string name="bzero">0</string>
+    <string name="bone">1</string>
+    <string name="btwo">2</string>
+    <string name="bthree">3</string>
+    <string name="bfour">4</string>
+    <string name="bfive">5</string>
+    <string name="bsix">6</string>
+    <string name="bseven">7</string>
+    <string name="beight">8</string>
+    <string name="bnine">9</string>
+    <string name="bequal">=</string>
+    <string name="pls">+</string>
+    <string name="sbt">-</string>
+    <string name="mlt">*</string>
+    <string name="dvi">/</string>
+
+    <!--  lesson for kg3 student -->
+
+    <string name="nin">LESSON ONE</string>
+    <string name="ten">LESSON TWO</string>
+    <string name="ele">LESSON THREE</string>
+    <string name="twv">LESSON FOUR</string>
+
+    <!-- how to take the lesson english for kg1  -->
+
+    <string name="on">SAGALEEN</string>
+    <string name="on1">VIIDIYOON</string>
+    <string name="on2">FAKKIIN</string>
+    <string name="on3">SAGALEEN</string>
+    <string name="on4">VIIDIYOON</string>
+    <string name="on5">FAKKIIN</string>
+    <string name="on6">SAGALEEN</string>
+    <string name="on7">VIIDIYOON</string>
+    <string name="on8">FAKKIIN</string>
+    <string name="on9">SAGALEEN</string>
+    <string name="on10">VIIDIYOON</string>
+    <string name="on11">FAKKIIN</string>
+
+    <!-- how to take the lesson  -->
+
+    <string name="one1">SAGALEEN</string>
+    <string name="one2">VIIDIYOON</string>
+    <string name="one3">FAKKIIN</string>
+    <string name="one4">SAGALEEN</string>
+    <string name="one5">VIIDIYOON</string>
+    <string name="one6">FAKKIIN</string>
+    <string name="one7">SAGALEEN</string>
+    <string name="one8">VIIDIYOON</string>
+    <string name="one9">FAKKIIN</string>
+    <string name="one10">SAGALEEN</string>
+    <string name="one11">VIIDIYOON</string>
+    <string name="one12">FAKKIIN</string>
+
+
+    <!-- how to take the lesson english for kg1  -->
+
+    <string name="ye">SAGALEEN</string>
+    <string name="ye1">VIIDIYOON</string>
+    <string name="ye2">FAKKIIN</string>
+    <string name="ye3">SAGALEEN</string>
+    <string name="ye4">VIIDIYOON</string>
+    <string name="ye5">FAKKIIN</string>
+    <string name="ye6">SAGALEEN</string>
+    <string name="ye7">VIIDIYOON</string>
+    <string name="ye8">FAKKIIN</string>
+    <string name="ye9">SAGALEEN</string>
+    <string name="ye10">VIIDIYOON</string>
+    <string name="ye11">FAKKIIN</string>
+
+    <string name="bm1">7</string>
+    <string name="bm2">9</string>
+    <string name="bm3">10</string>
+    <string name="bm4">14</string>
+    <string name="bm5">15</string>
+    <string name="bm6">19</string>
+
+    <string name="bm7">16</string>
+    <string name="bm8">24</string>
+    <string name="bm9">25</string>
+    <string name="bm10">32</string>
+    <string name="bm11">39</string>
+    <string name="bm12">47</string>
+
+    <string name="bm13">13</string>
+    <string name="bm14">18</string>
+    <string name="bm15">27</string>
+    <string name="bm16">34</string>
+    <string name="bm17">41</string>
+    <string name="bm18">46</string>
+
+    <string name="bm19">79</string>
+    <string name="bm20">87</string>
+    <string name="bm21">92</string>
+    <string name="bm22">99</string>
+    <string name="bm23">100</string>
+    <string name="bm24">105</string>
+
+    <string name="bm25">75</string>
+    <string name="bm26">80</string>
+    <string name="bm27">94</string>
+    <string name="bm28">110</string>
+    <string name="bm29">130</string>
+    <string name="bm30">120</string>
+
+    <string name="bm31">59</string>
+    <string name="bm32">68</string>
+    <string name="bm33">76</string>
+    <string name="bm34">130</string>
+    <string name="bm35">150</string>
+    <string name="bm36">160</string>
+
+    <string name="ch">CH</string>
+    <string name="dh">DH</string>
+    <string name="yn">NY</string>
+    <string name="ph">PH</string>
+    <string name="sh">SH</string>
+    <string name="ts">TS</string>
+
+
+</resources>

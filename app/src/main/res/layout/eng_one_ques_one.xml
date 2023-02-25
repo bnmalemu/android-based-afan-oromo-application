@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb99bb">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/qus11"
+        android:id="@+id/qus21"
+        android:textStyle="italic"
+        android:background="@drawable/gradient"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/rgb21"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/qus21"
+        android:layout_marginEnd="44dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rba21"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:checked="true"
+            android:text="@string/rba1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbb21"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="@string/rbb1"
+            android:layout_marginTop="30sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbc21"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="@string/rbc1"
+            android:layout_marginTop="30sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ntx"
+        android:id="@+id/ntx21"
+        android:background="@drawable/gradient"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

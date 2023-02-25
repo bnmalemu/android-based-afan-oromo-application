@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb99bb"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="51"
+            android:id="@+id/rob1"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberSix"
+            android:layout_above="@+id/rob3"
+            android:layout_toEndOf="@+id/rob21"
+            android:layout_marginStart="32dp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="51"
+            android:id="@+id/rob2"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberSix"
+            android:layout_above="@+id/rob4"
+            android:layout_toStartOf="@+id/rob22"
+            android:layout_marginEnd="36dp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="52"
+            android:id="@+id/rob3"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/rob5"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob1" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="52"
+            android:id="@+id/rob4"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberSix"
+            android:layout_above="@+id/rob5"
+            android:layout_alignStart="@+id/rob2" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="53"
+            android:id="@+id/rob5"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/rob7"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob3" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="53"
+            android:id="@+id/rob6"
+            android:layout_alignBottom="@+id/rob5"
+            android:onClick="numberSix"
+            android:layout_alignEnd="@+id/rob4" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="54"
+            android:id="@+id/rob7"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/rob9"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob5" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="54"
+            android:id="@+id/rob8"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberSix"
+            android:layout_below="@+id/rob6"
+            android:layout_alignStart="@+id/rob6" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="55"
+            android:id="@+id/rob9"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/rob11"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob7" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="55"
+            android:id="@+id/rob10"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob8"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob8" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="56"
+            android:id="@+id/rob11"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_centerVertical="true"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob9" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="56"
+            android:id="@+id/rob12"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/rob13"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob10" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="57"
+            android:id="@+id/rob13"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob11"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob11" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="57"
+            android:id="@+id/rob14"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob12"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob12" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="58"
+            android:id="@+id/rob15"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob13"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob13" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="58"
+            android:id="@+id/rob16"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob14"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob14" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="59"
+            android:id="@+id/rob17"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob16"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob13" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="59"
+            android:id="@+id/rob18"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob16"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob16" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="60"
+            android:id="@+id/rob19"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob18"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob17" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="60"
+            android:id="@+id/rob20"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/rob18"
+            android:onClick="numberSix"
+            android:layout_alignStart="@+id/rob16" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="BACK"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/rob21"
+            android:layout_alignParentBottom="true"
+            android:onClick="numberSix" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="NEXT"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/rob22"
+            android:onClick="numberSix"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#bb99bb"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="INGILIFFAAN"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="210sp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A/OROMOON"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/textView4"
+            android:layout_marginEnd="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FULBAANA"
+            android:id="@+id/bnym"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f3"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/textView4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEPTEMBER"
+            android:id="@+id/f2"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f4"
+            android:layout_alignEnd="@+id/f4"
+            android:layout_alignStart="@+id/f4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONKOLOOLESSA"
+            android:id="@+id/f3"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f5"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/bnym" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCTOBER"
+            android:id="@+id/f4"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f6"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/f6" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SADAASA"
+            android:id="@+id/f5"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f7"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOVEMBER"
+            android:id="@+id/f6"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f7"
+            android:layout_alignStart="@+id/f8"
+            android:layout_below="@+id/f3"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUDDE"
+            android:id="@+id/f7"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f9"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f9" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DECEMBER"
+            android:id="@+id/f8"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f9"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/f5"
+            android:layout_alignStart="@+id/f10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMAJJI"
+            android:id="@+id/f9"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f11"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JANUARY"
+            android:id="@+id/f10"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f12"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/f9"
+            android:layout_alignStart="@+id/f16" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GURAANDHALA"
+            android:id="@+id/f11"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f14"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f14" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FEBRUARY"
+            android:id="@+id/f12"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/f10" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARCH"
+            android:id="@+id/f13"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f16"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/f16" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BITOOTESSA"
+            android:id="@+id/f14"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f15"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f15" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EEBILA"
+            android:id="@+id/f15"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f17"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f17" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="APRIL"
+            android:id="@+id/f16"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f18"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/f18" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAAMSAA"
+            android:id="@+id/f17"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f19"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAY"
+            android:id="@+id/f18"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_alignTop="@+id/f17"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView4" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WAXABBAJJI"
+            android:id="@+id/f19"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f21"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/f16"
+            android:layout_alignEnd="@+id/f17" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUNE"
+            android:id="@+id/f20"
+            android:textStyle="italic"
+            android:layout_alignTop="@+id/f19"
+            android:layout_alignEnd="@+id/f18"
+            android:layout_toEndOf="@+id/textView4"
+            android:onClick="monthOfYear"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADOOLESSA"
+            android:id="@+id/f21"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f23"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f19" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JULY"
+            android:id="@+id/f22"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_above="@+id/f24"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/f20" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HAGAYYA"
+            android:id="@+id/f23"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_alignTop="@+id/f24"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/f21" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AUGUST"
+            android:id="@+id/f24"
+            android:textStyle="italic"
+            android:onClick="monthOfYear"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/f22" />
+
+    </RelativeLayout>
+
+</ScrollView>

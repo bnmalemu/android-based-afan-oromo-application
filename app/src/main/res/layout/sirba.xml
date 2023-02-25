@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#bb99bb"
+    android:id="@+id/song">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shaa"
+            android:id="@+id/shaa"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:onClick="sirba"
+            android:layout_alignTop="@+id/wgg"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="44dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/wgg"
+            android:id="@+id/wgg"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:layout_marginTop="70sp"
+            android:onClick="sirba"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/shaa"
+            android:layout_marginStart="48dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/haa"
+            android:id="@+id/haa"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:onClick="sirba"
+            android:layout_below="@+id/wgg"
+            android:layout_alignStart="@+id/wgg" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jii"
+            android:id="@+id/jii"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:onClick="sirba"
+            android:layout_alignTop="@+id/haa"
+            android:layout_alignStart="@+id/shaa" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/baa"
+            android:id="@+id/baa"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:textSize="20sp"
+            android:layout_below="@+id/jii"
+            android:layout_alignStart="@+id/jii"
+            android:layout_alignEnd="@+id/jii"
+            android:onClick="sirba"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/boo"
+            android:text="@string/boo"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/haa"
+            android:layout_alignStart="@+id/haa"
+            android:onClick="sirba"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ass"
+            android:id="@+id/ass"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/baa"
+            android:layout_alignStart="@+id/baa"
+            android:layout_alignEnd="@+id/baa"
+            android:onClick="sirba"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/guu"
+            android:id="@+id/guu"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_below="@+id/boo"
+            android:layout_marginTop="10sp"
+            android:layout_alignEnd="@+id/boo"
+            android:layout_alignStart="@+id/boo"
+            android:onClick="sirba"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/abbb"
+            android:id="@+id/abbb"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/ass"
+            android:layout_alignStart="@+id/ass"
+            android:onClick="sirba"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/kaa"
+            android:id="@+id/kaa"
+            android:background="@drawable/gradient"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_below="@+id/guu"
+            android:layout_marginTop="10sp"
+            android:layout_alignEnd="@+id/guu"
+            android:layout_alignStart="@+id/guu"
+            android:onClick="sirba"/>
+
+    </RelativeLayout>
+</ScrollView>

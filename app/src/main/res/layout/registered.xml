@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#bb99bb">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Maqaa"
+        android:id="@+id/mq1"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/mt5" />
+    <EditText
+        android:id="@+id/mt"
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:hint="simeeraa"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:layout_alignBottom="@+id/mq1"
+        android:layout_alignEnd="@+id/mt1" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Irrigataa"
+        android:id="@+id/pass1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/mt"
+        android:layout_alignStart="@+id/mq1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Mirkanessi "
+        android:id="@+id/textView7"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/pass1"
+        android:layout_alignStart="@+id/pass1" />
+
+    <EditText
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="******"
+        android:id="@+id/pass2"
+        android:layout_above="@+id/textView7"
+        android:layout_alignStart="@+id/mt" />
+
+    <EditText
+        android:layout_width="140sp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/pass5"
+        android:hint="******"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/pass2" />
+    <TextView
+        android:layout_width="130sp"
+        android:layout_height="96sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Kutaa"
+        android:id="@+id/mq2"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:paddingStart="0sp"
+        android:paddingEnd="59dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignTop="@+id/mt1"
+        android:layout_alignStart="@+id/textView7" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mt1"
+        android:paddingEnd="50sp"
+        android:paddingStart="220sp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KG 1FFAA"
+            android:id="@+id/mt2"
+            android:checked="true"
+            android:gravity="center"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KG 2FFAA"
+            android:id="@+id/mt3"
+            android:checked="false"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KG 3FFAA"
+            android:id="@+id/mt4"
+            android:checked="false"
+            android:gravity="center"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/mt5"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:text="@string/me"
+        android:textSize="20sp"
+        android:background="@drawable/gradient"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/mq2"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

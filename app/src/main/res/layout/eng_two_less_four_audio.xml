@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#bb99bb"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="INGILIFFAAN"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A/OROMOON"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView4"
+            android:layout_marginEnd="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WIIXATA"
+            android:id="@+id/u1"
+            android:layout_above="@+id/u4"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MONDAY"
+            android:id="@+id/u2"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/u1"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KIBXATA"
+            android:id="@+id/u3"
+            android:layout_below="@+id/u1"
+            android:layout_alignStart="@+id/u1"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TUESDAY"
+            android:id="@+id/u4"
+            android:layout_below="@+id/u2"
+            android:layout_alignEnd="@+id/u2"
+            android:layout_alignStart="@+id/u2"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROOBII"
+            android:id="@+id/u5"
+            android:layout_below="@+id/u3"
+            android:layout_alignEnd="@+id/u3"
+            android:layout_alignParentStart="true"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEDNESDAY"
+            android:id="@+id/u6"
+            android:layout_below="@+id/u4"
+            android:layout_alignEnd="@+id/u4"
+            android:layout_alignStart="@+id/u4"
+            android:onClick="daysOfWeek"
+            android:layout_above="@+id/u7" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KAMISA"
+            android:id="@+id/u7"
+            android:layout_below="@+id/u5"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THURSDAY"
+            android:id="@+id/u8"
+            android:onClick="daysOfWeek"
+            android:layout_above="@+id/u9"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/u5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JIMAATA"
+            android:id="@+id/u9"
+            android:layout_below="@+id/u7"
+            android:layout_alignEnd="@+id/u7"
+            android:layout_alignParentStart="true"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FRIDAY"
+            android:id="@+id/u10"
+            android:onClick="daysOfWeek"
+            android:layout_above="@+id/u12"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/u9" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SANBATA"
+            android:id="@+id/u11"
+            android:layout_below="@+id/u9"
+            android:layout_alignEnd="@+id/textView4"
+            android:layout_alignParentStart="true"
+            android:onClick="daysOfWeek"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SATURDAY"
+            android:id="@+id/u12"
+            android:onClick="daysOfWeek"
+            android:layout_below="@+id/u9"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/u9" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUNDAY"
+            android:id="@+id/u13"
+            android:onClick="daysOfWeek"
+            android:layout_below="@+id/u11"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/u11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DILBATA"
+            android:id="@+id/u14"
+            android:layout_below="@+id/u11"
+            android:layout_alignEnd="@+id/u11"
+            android:layout_alignParentStart="true"
+            android:onClick="daysOfWeek"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

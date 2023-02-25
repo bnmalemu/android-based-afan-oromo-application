@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb99bb"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="21"
+            android:id="@+id/butto1"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberThree"
+            android:layout_above="@+id/butto3"
+            android:layout_toEndOf="@+id/butto21"
+            android:layout_marginStart="35dp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="21"
+            android:id="@+id/butto2"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberThree"
+            android:layout_marginStart="42dp"
+            android:layout_above="@+id/butto4"
+            android:layout_toEndOf="@+id/butto1" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="22"
+            android:id="@+id/butto3"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/butto5"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto1" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="22"
+            android:id="@+id/butto4"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberThree"
+            android:layout_above="@+id/butto5"
+            android:layout_alignStart="@+id/butto2" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="23"
+            android:id="@+id/butto5"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/butto7"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto3" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="23"
+            android:id="@+id/butto6"
+            android:layout_alignBottom="@+id/butto5"
+            android:onClick="numberThree"
+            android:layout_alignEnd="@+id/butto4" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="24"
+            android:id="@+id/butto7"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/butto9"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto5" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="24"
+            android:id="@+id/butto8"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberThree"
+            android:layout_below="@+id/butto6"
+            android:layout_alignStart="@+id/butto6" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="25"
+            android:id="@+id/butto9"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/butto11"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto7" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="25"
+            android:id="@+id/butto10"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto8"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto8" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="26"
+            android:id="@+id/butto11"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_centerVertical="true"
+            android:onClick="numberTwo"
+            android:layout_alignStart="@+id/butto9" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="26"
+            android:id="@+id/butto12"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/butto13"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto10" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="27"
+            android:id="@+id/butto13"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto11"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto11" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="27"
+            android:id="@+id/butto14"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto12"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto12" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="28"
+            android:id="@+id/butto15"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto13"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto13" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="28"
+            android:id="@+id/butto16"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto14"
+            android:onClick="numberTwo"
+            android:layout_alignStart="@+id/butto14" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="29"
+            android:id="@+id/butto17"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto16"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto13" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="29"
+            android:id="@+id/butto18"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto16"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto16" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="30"
+            android:id="@+id/butto19"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto18"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto17" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="30"
+            android:id="@+id/butto20"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/butto18"
+            android:onClick="numberThree"
+            android:layout_alignStart="@+id/butto16" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="NEXT"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/butto22"
+            android:onClick="numberThree"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/butto20" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="BACK"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/butto21"
+            android:onClick="numberThree"
+            android:layout_alignTop="@+id/butto22"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</ScrollView>

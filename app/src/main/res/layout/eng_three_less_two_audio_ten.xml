@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb99bb"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="91"
+            android:id="@+id/tad1"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberTen"
+            android:layout_above="@+id/tad3"
+            android:layout_toStartOf="@+id/tad2"
+            android:layout_marginEnd="32dp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="91"
+            android:id="@+id/tad2"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberTen"
+            android:layout_above="@+id/tad4"
+            android:layout_toStartOf="@+id/tad22"
+            android:layout_marginEnd="36dp" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="92"
+            android:id="@+id/tad3"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/tad5"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad1" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="92"
+            android:id="@+id/tad4"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberTen"
+            android:layout_above="@+id/tad5"
+            android:layout_alignStart="@+id/tad2" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="93"
+            android:id="@+id/tad5"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/tad7"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad3" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="93"
+            android:id="@+id/tad6"
+            android:layout_alignBottom="@+id/tad5"
+            android:onClick="numberTen"
+            android:layout_alignEnd="@+id/tad4" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="94"
+            android:id="@+id/tad7"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/tad9"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad5" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="94"
+            android:id="@+id/tad8"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:onClick="numberTen"
+            android:layout_below="@+id/tad6"
+            android:layout_alignStart="@+id/tad6" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="95"
+            android:id="@+id/tad9"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/tad11"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad7" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="95"
+            android:id="@+id/tad10"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad8"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad8" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="96"
+            android:id="@+id/tad11"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_centerVertical="true"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad9" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="96"
+            android:id="@+id/tad12"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_above="@+id/tad13"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad10" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="97"
+            android:id="@+id/tad13"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad11"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad11" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="97"
+            android:id="@+id/tad14"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad12"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad12" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="98"
+            android:id="@+id/tad15"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad13"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad13" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="98"
+            android:id="@+id/tad16"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad14"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad14" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="99"
+            android:id="@+id/tad17"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad16"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad13" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="99"
+            android:id="@+id/tad18"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad16"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad16" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="100"
+            android:id="@+id/tad19"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad18"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad17" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="100"
+            android:id="@+id/tad20"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:layout_below="@+id/tad18"
+            android:onClick="numberTen"
+            android:layout_alignStart="@+id/tad16" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="BACK"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/tad21"
+            android:layout_alignParentBottom="true"
+            android:onClick="numberTen" />
+
+        <Button
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="NEXT"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:id="@+id/tad22"
+            android:onClick="numberTen"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</ScrollView>

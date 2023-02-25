@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#bb99bb">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="INGILIFFAAN"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A/OROMOON"
+            android:id="@+id/textView4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="35dp"
+            android:layout_above="@+id/x2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/x1"
+            android:textSize="30sp"
+            android:layout_above="@+id/x4"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:id="@+id/x2"
+            android:textSize="30sp"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/x3"
+            android:textSize="30sp"
+            android:layout_below="@+id/x1"
+            android:layout_alignStart="@+id/x1"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:id="@+id/x4"
+            android:textSize="30sp"
+            android:layout_below="@+id/x2"
+            android:layout_alignStart="@+id/x2"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/x5"
+            android:textSize="30sp"
+            android:layout_below="@+id/x3"
+            android:layout_alignEnd="@+id/x3"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:id="@+id/x6"
+            android:textSize="30sp"
+            android:layout_below="@+id/x4"
+            android:layout_alignEnd="@+id/x4"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/x7"
+            android:textSize="30sp"
+            android:layout_below="@+id/x5"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:id="@+id/x8"
+            android:textSize="30sp"
+            android:layout_below="@+id/x6"
+            android:layout_alignEnd="@+id/x6"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:id="@+id/x9"
+            android:textSize="30sp"
+            android:layout_below="@+id/x7"
+            android:layout_alignEnd="@+id/x7"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E"
+            android:id="@+id/x10"
+            android:textSize="30sp"
+            android:layout_below="@+id/x8"
+            android:layout_alignEnd="@+id/x8"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/x11"
+            android:textSize="30sp"
+            android:layout_below="@+id/x9"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:id="@+id/x12"
+            android:textSize="30sp"
+            android:layout_below="@+id/x10"
+            android:layout_alignEnd="@+id/x10"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:id="@+id/x13"
+            android:layout_below="@+id/x12"
+            android:textSize="30sp"
+            android:layout_alignEnd="@+id/x12"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:id="@+id/x14"
+            android:textSize="30sp"
+            android:layout_below="@+id/x11"
+            android:layout_alignEnd="@+id/x11"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:id="@+id/x15"
+            android:textSize="30sp"
+            android:layout_below="@+id/x14"
+            android:layout_alignEnd="@+id/x14"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:id="@+id/x16"
+            android:textSize="30sp"
+            android:layout_alignBottom="@+id/x15"
+            android:layout_alignEnd="@+id/x13"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:id="@+id/x17"
+            android:textSize="30sp"
+            android:layout_below="@+id/x15"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I"
+            android:id="@+id/x18"
+            android:textSize="30sp"
+            android:layout_alignBottom="@+id/x17"
+            android:layout_alignEnd="@+id/x16"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textSize="30sp"
+            android:id="@+id/x23"
+            android:layout_below="@+id/x18"
+            android:layout_alignStart="@+id/x18"
+            android:layout_marginTop="33dp"
+            android:onClick="transOne"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textSize="30sp"
+            android:id="@+id/x24"
+            android:layout_alignTop="@+id/x23"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transOne"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

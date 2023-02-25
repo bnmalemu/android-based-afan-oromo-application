@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#bb99bb">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="INGILIFFAAN"
+            android:id="@+id/textView2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginEnd="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="A/OROMOON"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/textView4"
+            android:layout_marginEnd="35dp"
+            android:layout_above="@+id/w2"
+            android:layout_toStartOf="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:id="@+id/w1"
+            android:textSize="30sp"
+            android:layout_above="@+id/w4"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S"
+            android:id="@+id/w2"
+            android:textSize="30sp"
+            android:layout_marginTop="33dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"
+            android:id="@+id/w3"
+            android:textSize="30sp"
+            android:layout_below="@+id/w1"
+            android:layout_alignStart="@+id/w1"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="T"
+            android:id="@+id/w4"
+            android:textSize="30sp"
+            android:layout_below="@+id/w2"
+            android:layout_alignStart="@+id/w2"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U"
+            android:id="@+id/w5"
+            android:textSize="30sp"
+            android:layout_below="@+id/w3"
+            android:layout_alignEnd="@+id/w3"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="U"
+            android:id="@+id/w6"
+            android:textSize="30sp"
+            android:layout_below="@+id/w4"
+            android:layout_alignEnd="@+id/w4"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/w7"
+            android:textSize="30sp"
+            android:layout_below="@+id/w5"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="V"
+            android:id="@+id/w8"
+            android:textSize="30sp"
+            android:layout_below="@+id/w6"
+            android:layout_alignEnd="@+id/w6"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:id="@+id/w9"
+            android:textSize="30sp"
+            android:layout_below="@+id/w7"
+            android:layout_alignEnd="@+id/w7"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="W"
+            android:id="@+id/w10"
+            android:textSize="30sp"
+            android:layout_below="@+id/w8"
+            android:layout_alignEnd="@+id/w8"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:id="@+id/w11"
+            android:textSize="30sp"
+            android:layout_below="@+id/w9"
+            android:layout_alignEnd="@+id/textView4"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:id="@+id/w12"
+            android:textSize="30sp"
+            android:layout_below="@+id/w10"
+            android:layout_alignEnd="@+id/w10"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y"
+            android:id="@+id/w13"
+            android:textSize="30sp"
+            android:layout_below="@+id/w12"
+            android:layout_alignEnd="@+id/w12"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y"
+            android:id="@+id/w14"
+            android:textSize="30sp"
+            android:layout_below="@+id/w11"
+            android:layout_alignEnd="@+id/w11"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z"
+            android:id="@+id/w15"
+            android:textSize="30sp"
+            android:layout_below="@+id/w14"
+            android:layout_alignEnd="@+id/w14"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Z"
+            android:id="@+id/w16"
+            android:textSize="30sp"
+            android:layout_alignBottom="@+id/w15"
+            android:layout_alignEnd="@+id/w13"
+            android:onClick="transThree"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="NEXT"
+            android:id="@+id/w23"
+            android:layout_below="@+id/w16"
+            android:textSize="30sp"
+            android:layout_marginTop="48dp"
+            android:onClick="transThree"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/w16" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/w24"
+            android:textSize="30sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/w15"
+            android:onClick="transThree"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

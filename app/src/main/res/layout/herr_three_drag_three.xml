@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#bb99bb">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="76"
+            android:id="@+id/dhp"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_above="@+id/nyp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="59"
+            android:id="@+id/tsp"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_above="@+id/nyp"
+            android:layout_alignEnd="@+id/jar42" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="130"
+            android:id="@+id/chp"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/php"
+            android:layout_alignEnd="@+id/tsp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="160"
+            android:id="@+id/nyp"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/shp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="68"
+            android:id="@+id/shp"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="150"
+            android:id="@+id/php"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/nyp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:id="@+id/jar12"
+            android:textSize="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/jar52" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:id="@+id/jar22"
+            android:textSize="50sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/jar32" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:id="@+id/jar32"
+            android:textSize="50sp"
+            android:layout_above="@+id/jar22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:id="@+id/jar42"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/jar32"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:id="@+id/jar52"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/jar32"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:id="@+id/jar62"
+            android:textSize="50sp"
+            android:layout_alignTop="@+id/jar22"
+            android:layout_alignStart="@+id/jar42" />
+
+    </RelativeLayout>
+
+</ScrollView>

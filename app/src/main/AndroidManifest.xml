@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bini.mame.abaoappsforteachingkids">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mame"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".WelcomeActivity"
+            android:label="BiniA"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Help"
+            android:label="HELP"/>
+
+        <activity
+            android:name=".Registered"
+            android:label="REGISTRATION" />
+        <activity
+            android:name=".Loogiin"
+            android:label="LOGIN" />
+        <activity android:name=".MainTabActivity"
+            android:label="BAGA NAGAAN DHUFTAN!"/>
+        <activity
+            android:name=".MainChoiceOne"
+            android:label="IJOOLLEE KG 1FFAAF" />
+        <activity
+            android:name=".MainChoiceTwo"
+            android:label="IJOOLLEE KG 2FFAAF" />
+
+        <activity android:name=".MainChoiceThree"
+            android:label="IJOOLLEE KG 3FFAAF"/>
+
+        <activity android:name=".CourseOne"/>
+        <activity android:name=".CourseTwo"/>
+        <activity android:name=".CourseThree"/>
+
+        <activity
+            android:name=".Oromia"
+            android:label="OROMIYAA DAAWWADHAA" />
+        <activity android:name=".HistSite"
+            android:label="BAKKEE SEENAA OROMIYAA"/>
+        <activity android:name=".WoHistPict"
+            android:label="BAKKEE SEENAA WALLAGGAA"/>
+        <activity android:name=".BaleHistPict"
+            android:label="BAKKEE SEENAA BAALEE"/>
+        <activity android:name=".HarHistPict"
+            android:label="BAKKEE SEENAA HARAR"/>
+        <activity android:name=".JimHistPict"
+            android:label="BAKKEE SEENAA JIMMAA"/>
+        <activity
+            android:name=".EatStyle"
+            android:label="AADAA NYAATAA OROMIYAA" />
+        <activity
+            android:name=".ArsiEat"
+            android:label="NYAATA AADAA ARSII" />
+        <activity
+            android:name=".BaleEat"
+            android:label="NYAATA AADAA BAALEE" />
+        <activity
+            android:name=".BoranaEat"
+            android:label="NYAATA AADAA BOORANAA" />
+        <activity
+            android:name=".HararEat"
+            android:label="NYAATA AADAA HARARGEE" />
+        <activity
+            android:name=".IluEat"
+            android:label="NYAATA AADAA I/AABBAA BOORAA" />
+        <activity
+            android:name=".JimmaEat"
+            android:label="NYAATA AADAA JIMMAA" />
+        <activity
+            android:name=".ShawaEat"
+            android:label="NYAATA AADAA SHAWAA" />
+        <activity
+            android:name=".WallEat"
+            android:label="NYAATA AADAA WALLAGGAA" />
+        <activity
+            android:name=".SongStyle"
+            android:label="AADAA SIRBA OROMIYAA" />
+        <activity
+            android:name=".SongArsi"
+            android:label="SIRBA AADAA ARSII" />
+        <activity
+            android:name=".SongBale"
+            android:label=" SIRBA AADAA BAALEE" />
+        <activity
+            android:name=".SongBoran"
+            android:label="SIRBA AADAA BOORANAA" />
+        <activity
+            android:name=".SongGuji"
+            android:label="SIRBA AADAA GUJII" />
+        <activity
+            android:name=".SongHarar"
+            android:label="SIRBA AADAA HARARGEE" />
+        <activity
+            android:name=".SongIlu"
+            android:label="SIRBA AADAA HARARGEE" />
+        <activity
+            android:name=".SongJimma"
+            android:label="SIRBA AADAA JIMMAA" />
+        <activity
+            android:name=".SongKami"
+            android:label="SIRBA AADAA KAMISEE" />
+        <activity
+            android:name=".SongShaw"
+            android:label="SIRBA AADAA SHAWAA" />
+        <activity
+            android:name=".SongWal"
+            android:label="SIRBA AADAA WALLAGGAA" />
+        <activity
+            android:name=".WearStyle"
+            android:label="AADAA UFFATA OROMOO" />
+        <activity
+            android:name=".WearArsi"
+            android:label="UFFATA AADAA ARSII" />
+        <activity
+            android:name=".WearBale"
+            android:label="UFFATA AADAA BAALEE" />
+        <activity
+            android:name=".WearBora"
+            android:label="UFFATA AADAA BOORANAA" />
+        <activity
+            android:name=".WearGuji"
+            android:label="UFFATA AADAA GUJII" />
+        <activity
+            android:name=".WearHarar"
+            android:label="UFFATA AADAA HARARGEE" />
+        <activity
+            android:name=".WearJimma"
+            android:label="UFFATA AADAA JIMMAA" />
+        <activity
+            android:name=".WearShaw"
+            android:label="UFFATA AADAA SHAWAA" />
+        <activity
+            android:name=".WearKam"
+            android:label="UFFATA AADAA KAMISEE" />
+        <activity
+            android:name=".WearWalla"
+            android:label="UFFATA AADAA WALLAGGAA" />
+
+
+        <activity
+            android:name=".AfanOromoOne"
+            android:label="AFAAN OROMOO KG 1FFAA" />
+        <activity android:name=".AfanTokoLessOne"
+            android:label="BARANNOO 1FFAA"/>
+        <activity android:name=".AfanTokoLessTwo"
+            android:label="BARANNOO 2FFAA" />
+
+        <activity android:name=".AfanTokoLessOneAudio"/>
+        <activity android:name=".AfanTokoLessOneVideo"/>
+        <activity android:name=".AfanTokoLessOnePicture"/>
+        <activity android:name=".AfanTokoLessTwoAudio"/>
+        <activity android:name=".AfanTokoLessTwoVideo"/>
+        <activity android:name=".AfanTokoLessThreeAudio"/>
+
+
+        <activity
+            android:name=".HeregaOne"
+            android:label="BARNOOTA HERREGAA" />
+        <activity
+            android:name=".HerrTokoLessOne"
+            android:label="BARANNOO 1FFAA" />
+
+        <activity android:name=".HerrTokoLessOneAudio"/>
+        <activity android:name=".HerrTokoLessTwoAudio"/>
+        <activity android:name=".HerrTokoLessOneVideo"/>
+
+
+        <activity android:name=".EnglishOne"/>
+        <activity android:name=".EngOneLessOne"
+            android:label="BARANNOO 1FFAA"/>
+
+        <activity android:name=".EngOneLessOneAudio"/>
+        <activity android:name=".EngOneLessOneVideo"/>
+        <activity android:name=".EngOneLessOnePicture"/>
+        <activity android:name=".EngOneLessTwoAudio"/>
+        <activity android:name=".EngOneLessThreeAudio"/>
+        <activity android:name=".EngOneLessFourAudioOne"/>
+        <activity android:name=".EngOneLessFourAudioTwo"/>
+        <activity android:name=".EngOneLessFourAudioThree"/>
+
+        <activity android:name=".EvaluationOne"/>
+        <activity android:name=".EvaluationTwo"/>
+        <activity android:name=".EvaluationThree"/>
+        <activity
+            android:name=".AfanOneTest"
+            android:label="QORMAATA JALQABAA" />
+        <activity android:name=".AfanOneTestOne"/>
+        <activity android:name=".AfanOneTestTwo"/>
+        <activity android:name=".AfanOneTestThree"/>
+
+        <activity android:name=".EngOneTest"/>
+        <activity android:name=".EngOneTestOne"/>
+        <activity android:name=".EngOneTestTwo"/>
+        <activity android:name=".EngOneTestThree"/>
+
+        <activity android:name=".HerrOneTest"/>
+        <activity android:name=".HerrOneTestOne"/>
+        <activity android:name=".HerrOneTestTwo"/>
+        <activity android:name=".HerrOneTestThree"/>
+
+        <activity android:name=".AfanOromoTwo"
+            android:label="AFAAN OROMOO KG 2FFAAF"/>
+
+        <activity android:name=".AfanLamaLessOneAudio"/>
+        <activity android:name=".AfanLamaLessTwoAudio"/>
+        <activity android:name=".AfanLamaLessThreeAudio"/>
+        <activity android:name=".AfanLamaLessFourAudio"/>
+
+        <activity
+            android:name=".HeregaTwo"
+            android:label="BARNOOTA HERREGAA" />
+        <activity android:name=".HerrLamaLessTwo"
+            android:label="BARANNOO 2FFAA" />
+        <activity android:name=".HerrLamaLessThree"
+            android:label="BARANNOO 3FFAA" />
+
+        <activity android:name=".HerrLamaLessOneAudio"/>
+        <activity android:name=".HerrLamaLessTwoAddition"/>
+        <activity android:name=".HerrLamaLessTwoSubtraction"/>
+
+        <activity android:name=".EnglishTwo"/>
+
+        <activity android:name=".EngTwoLessOneAudio"/>
+        <activity android:name=".EngTwoLessTwoAudio"/>
+        <activity android:name=".EngTwoLessThreeAudio"/>
+        <activity android:name=".EngTwoLessFourAudio"/>
+
+        <activity android:name="AfanOromoThree"
+            android:label="BARNOOTA AFAAN OROMOO KG 3FFAA"/>
+
+        <activity android:name=".AfanSadiLessOneAudio"/>
+        <activity android:name=".AfanSadiLessTwoAudio"/>
+        <activity android:name=".AfanSadiLessThreeAudio"/>
+        <activity android:name=".AfanSadiLessFourAudio"/>
+        <activity android:name=".AfanSadiLessFiveAudio"/>
+
+        <activity
+            android:name=".HeregaThree"
+            android:label="HERREGA KG 3FFAA"/>
+        <activity android:name=".HerrSadiLessOne"
+            android:label="BARANNOO 1FFAA" />
+        <activity android:name=".HerrSadiLessTwo"
+            android:label="BARANNOO 2FFAA" />
+        <activity android:name=".HerrSadiLessThree"
+            android:label="BARANNOO 3FFAA" />
+
+        <activity android:name=".HerrSadiLessOneAudio"/>
+        <activity android:name=".HerrSadiLessTwoDivision"/>
+        <activity android:name=".HerrSadiLessTwoMultiply"/>
+
+
+        <activity android:name=".EnglishThree"
+            android:label="BARNOOTA INGILIFFAA KG 3FFAA"/>
+
+        <activity android:name=".EngThreeLessOneAudio"/>
+        <activity android:name=".EngThreeLessTwoAudioOne"/>
+        <activity android:name=".EngThreeLessTwoAudioTwo"/>
+        <activity android:name=".EngThreeLessTwoAudioThree"/>
+        <activity android:name=".EngThreeLessTwoAudioFour"/>
+        <activity android:name=".EngThreeLessTwoAudioFive"/>
+        <activity android:name=".EngThreeLessTwoAudioSix"/>
+        <activity android:name=".EngThreeLessTwoAudioSeven"/>
+        <activity android:name=".EngThreeLessTwoAudioEight"/>
+        <activity android:name=".EngThreeLessTwoAudioNine"/>
+        <activity android:name=".EngThreeLessTwoAudioTen"/>
+        <activity android:name=".EngThreeLessThreeAudio"/>
+        <activity android:name=".EngThreeLessFourAudio"/>
+
+        <!-- HERE IA LIST OF GAMES   IN ANIMATION AND DRAG AND DROP FORM   -->
+
+        <activity android:name=".GameOne"/>
+
+        <!-- AFAN OROMO ANIMATION GAME    -->
+
+        <activity android:name=".AfanOneGame"/>
+        <activity android:name=".HerrOneGame"/>
+        <activity android:name=".EngOneGame"/>
+        <activity android:name=".AfanOneGameOne"/>
+        <activity android:name=".AfanOneAnimB"/>
+        <activity android:name=".AfanOneAnimC"/>
+        <activity android:name=".AfanOneAnimD"/>
+        <activity android:name=".AfanOneAnimE"/>
+        <activity android:name=".AfanOneAnimF"/>
+        <activity android:name=".AfanOneAnimG"/>
+        <activity android:name=".AfanOneAnimH"/>
+        <activity android:name=".AfanOneAnimI"/>
+        <activity android:name=".AfanOneAnimJ"/>
+        <activity android:name=".AfanOneAnimK"/>
+        <activity android:name=".AfanOneAnimL"/>
+        <activity android:name=".AfanOneAnimM"/>
+        <activity android:name=".AfanOneAnimN"/>
+        <activity android:name=".AfanOneAnimO"/>
+        <activity android:name=".AfanOneAnimP"/>
+        <activity android:name=".AfanOneAnimQ"/>
+        <activity android:name=".AfanOneAnimR"/>
+        <activity android:name=".AfanOneAnimS"/>
+        <activity android:name=".AfanOneAnimT"/>
+        <activity android:name=".AfanOneAnimU"/>
+        <activity android:name=".AfanOneAnimV"/>
+        <activity android:name=".AfanOneAnimW"/>
+        <activity android:name=".AfanOneAnimX"/>
+        <activity android:name=".AfanOneAnimY"/>
+        <activity android:name=".AfanOneAnimZ"/>
+
+        <activity android:name=".EngOneAnimA"/>
+        <activity android:name=".EngOneAnimB"/>
+        <activity android:name=".EngOneAnimC"/>
+        <activity android:name=".EngOneAnimD"/>
+        <activity android:name=".EngOneAnimE"/>
+        <activity android:name=".EngOneAnimF"/>
+        <activity android:name=".EngOneAnimG"/>
+        <activity android:name=".EngOneAnimH"/>
+        <activity android:name=".EngOneAnimI"/>
+        <activity android:name=".EngOneAnimJ"/>
+        <activity android:name=".EngOneAnimK"/>
+        <activity android:name=".EngOneAnimL"/>
+        <activity android:name=".EngOneAnimM"/>
+        <activity android:name=".EngOneAnimN"/>
+        <activity android:name=".EngOneAnimO"/>
+        <activity android:name=".EngOneAnimP"/>
+        <activity android:name=".EngOneAnimQ"/>
+        <activity android:name=".EngOneAnimR"/>
+        <activity android:name=".EngOneAnimS"/>
+        <activity android:name=".EngOneAnimT"/>
+        <activity android:name=".EngOneAnimU"/>
+        <activity android:name=".EngOneAnimV"/>
+        <activity android:name=".EngOneAnimW"/>
+        <activity android:name=".EngOneAnimX"/>
+        <activity android:name=".EngOneAnimY"/>
+        <activity android:name=".EngOneAnimZ"/>
+
+        <activity android:name=".EngOneGameTwo"/>
+        <activity android:name=".EngOneDragAndDropOne"/>
+        <activity android:name=".EngOneDragAndDropTwo"/>
+        <activity android:name=".EngOneDragAndDropThree"/>
+
+        <activity android:name=".HerrOneAnimOne"/>
+        <activity android:name=".HerrOneAnimTwo"/>
+        <activity android:name=".HerrOneAnimThree"/>
+        <activity android:name=".HerrOneAnimFour"/>
+        <activity android:name=".HerrOneAnimFive"/>
+        <activity android:name=".HerrOneAnimSix"/>
+        <activity android:name=".HerrOneAnimSeven"/>
+        <activity android:name=".HerrOneAnimEight"/>
+        <activity android:name=".HerrOneAnimNine"/>
+        <activity android:name=".HerrOneAnimTen"/>
+        <activity android:name=".HerrOneAnimEleven"/>
+        <activity android:name=".HerrOneAnimTwelve"/>
+        <activity android:name=".HerrOneAnimThirteen"/>
+        <activity android:name=".HerrOneAnimFourteen"/>
+        <activity android:name=".HerrOneAnimFifteen"/>
+        <activity android:name=".HerrOneAnimSixteen"/>
+        <activity android:name=".HerrOneAnimSeventen"/>
+        <activity android:name=".HerrOneAnimEighteen"/>
+        <activity android:name=".HerrOneAnimNinteen"/>
+        <activity android:name=".HerrOneAnimTwenty"/>
+        <activity android:name=".HerrOneAnimTwentyOne"/>
+        <activity android:name=".HerrOneAnimTwentyTwo"/>
+        <activity android:name=".HerrOneAnimTwentyThree"/>
+        <activity android:name=".HerrOneAnimTwentyFour"/>
+        <activity android:name=".HerrOneAnimTwentyFive"/>
+        <activity android:name=".HerrOneAnimTwentySix"/>
+        <activity android:name=".HerrOneAnimTwentySeven"/>
+        <activity android:name=".HerrOneAnimTwentyEight"/>
+        <activity android:name=".HerrOneAnimTwentyNine"/>
+        <activity android:name=".HerrOneAnimThirty"/>
+        <activity android:name=".HerrOneAnimThirtyOne"/>
+        <activity android:name=".HerrOneAnimThirtyTwo"/>
+        <activity android:name=".HerrOneAnimThirtyThree"/>
+        <activity android:name=".HerrOneAnimThirtyFour"/>
+        <activity android:name=".HerrOneAnimThirtyFive"/>
+        <activity android:name=".HerrOneAnimThirtySix"/>
+        <activity android:name=".HerrOneAnimThirtySeven"/>
+        <activity android:name=".HerrOneAnimThirtyEight"/>
+        <activity android:name=".HerrOneAnimThirtyNine"/>
+        <activity android:name=".HerrOneAnimFourty"/>
+        <activity android:name=".HerrOneAnimForthyOne"/>
+        <activity android:name=".HerrOneAnimFourthtTwo"/>
+        <activity android:name=".HerrOneAnimFourthyThree"/>
+        <activity android:name=".HerrOneAnimFourthyFour"/>
+        <activity android:name=".HerrOneAnimFourthyFive"/>
+        <activity android:name=".HerrOneAnimFourthySix"/>
+        <activity android:name=".HerrOneAnimFourthySeven"/>
+        <activity android:name=".HerrOneAnimFourthyEight"/>
+        <activity android:name=".HerrOneAnimFourthyNine"/>
+        <activity android:name=".HerrOneAnimFifthy"/>
+
+
+        <activity android:name=".AfanOneGameTwo"/>
+        <activity android:name=".AfanOneGameTwoStart"/>
+        <activity android:name=".AfanOneDragAndDropOne"/>
+        <activity android:name=".AfanOneDragAndDropTwo"/>
+        <activity android:name=".AfanOneDragAndDropThree"/>
+
+        <activity android:name=".GameTwo"/>
+        <activity android:name=".AfanTwoGame"/>
+        <activity android:name=".AfanTwoGameOne"/>
+        <activity android:name=".DubbachAaa"/>
+        <activity android:name=".DubbachEee"/>
+        <activity android:name=".DubbachIii"/>
+        <activity android:name=".DubbachOoo"/>
+        <activity android:name=".DubbachUuuu"/>
+        <activity android:name=".DachaChaa"/>
+        <activity android:name=".DachaDhaa"/>
+        <activity android:name=".DachaNyaa"/>
+        <activity android:name=".DachaPhaa"/>
+        <activity android:name=".DachaShaa"/>
+        <activity android:name=".DachaTsaa"/>
+        <activity android:name=".DachaZyaa"/>
+
+        <activity android:name=".AfanTwoGameTwo"/>
+        <activity android:name=".AfanTwoDragAndDropOne"/>
+        <activity android:name=".AfanTwoDragAndDropTwo"/>
+
+        <activity android:name=".EngTwoGame"/>
+        <activity android:name=".VowelAaa"/>
+        <activity android:name=".VowelEee"/>
+        <activity android:name=".VowelIii"/>
+        <activity android:name=".VowelOoo"/>
+        <activity android:name=".VowelUuu"/>
+
+        <activity android:name=".EngTwoGameTwo"/>
+        <activity android:name="HerrOneGameTwo"/>
+        <activity android:name=".EngTwoDragAndDropOne"/>
+
+        <activity android:name=".HerrOneDragAndDropOne"/>
+        <activity android:name=".HerrOneDragAndDropTwo"/>
+        <activity android:name=".HerrOneDragAndDropThree"/>
+
+        <activity android:name=".HerrTwoGame"/>
+        <activity android:name=".HerrTwoGameOne"/>
+        <activity android:name=".HerrTwoGameTwo"/>
+        <activity android:name=".HerrTwoGameThree"/>
+
+        <activity android:name=".GameThree"/>
+        <activity android:name=".AfanThreeGame"/>
+        <activity android:name=".AfanThreeGameOne"/>
+        <activity android:name=".AfanThreeGameTwo"/>
+        <activity android:name=".AfanThreeGameThree"/>
+        <activity android:name=".EngThreeGame"/>
+        <activity android:name=".EngThreeGameOne"/>
+        <activity android:name=".EngThreeGameTwo"/>
+        <activity android:name=".EngThreeGameThree"/>
+        <activity android:name=".EngThreeDragAndDropOne"/>
+        <activity android:name=".EngThreeDragAndDropTwo"/>
+        <activity android:name=".EngThreeDragAndDropThree"/>
+        <activity android:name=".HerrThreeGame"/>
+        <activity android:name=".HerrThreeGameOne"/>
+        <activity android:name=".HerrThreeGameTwo"/>
+        <activity android:name=".HerrThreeGameThree"/>
+        <activity android:name=".HerrThreeDragAndDropOne"/>
+        <activity android:name=".HerrThreeDragAndDropTwo"/>
+        <activity android:name=".HerrThreeDragAndDropThree"/>
+
+
+        <!-- REEEESUUUUUUUUUUUUUUUUULT OBSERVING    -->
+
+        <activity android:name=".ResultOne"/>
+
+        <activity android:name=".AfanOneResult"/>
+        <activity android:name=".AfanOneResultOne"/>
+        <activity android:name=".AfanOneResultTwo"/>
+        <activity android:name=".AfanOneResultThree"/>
+
+        <activity android:name=".HerrOneResult"/>
+        <activity android:name=".HerrOneResultOne"/>
+        <activity android:name=".HerrOneResultTwo"/>
+        <activity android:name=".HerrOneResultThree"/>
+
+        <activity android:name=".EngOneResult"/>
+        <activity android:name=".EngOneResultOne"/>
+        <activity android:name=".EngOneResultTwo"/>
+        <activity android:name=".EngOneResultThree"/>
+
+        <activity android:name=".ResultTwo"/>
+        <activity android:name=".AfanTwoResult"/>
+        <activity android:name=".AfanTwoResultOne"/>
+        <activity android:name=".AfanTwoResultTwo"/>
+        <activity android:name=".AfanTwoResultThree"/>
+
+        <activity android:name=".HerrTwoResult"/>
+        <activity android:name=".HerrTwoResultOne"/>
+        <activity android:name=".HerrTwoResultTwo"/>
+        <activity android:name=".HerrTwoResultThree"/>
+
+        <activity android:name=".EngTwoResult"/>
+        <activity android:name=".EngTwoResultOne"/>
+        <activity android:name=".EngTwoResultTwo"/>
+        <activity android:name=".EngTwoResultThree"/>
+
+        <activity android:name=".ResultThree"/>
+        <activity android:name=".AfanThreeResult"/>
+        <activity android:name=".AfanThreeResultOne"/>
+        <activity android:name=".AfanThreeResultTwo"/>
+        <activity android:name=".AfanThreeResultThree"/>
+
+        <activity android:name=".HerrThreeResult"/>
+        <activity android:name=".HerrThreeResultOne"/>
+        <activity android:name=".HerrThreeResultTwo"/>
+        <activity android:name=".HerrThreeResultThree"/>
+
+        <activity android:name=".EngThreeResult"/>
+        <activity android:name=".EngThreeResultOne"/>
+        <activity android:name=".EngThreeResultTwo"/>
+        <activity android:name=".EngThreeResultThree"/>
+
+        <activity android:name=".AfanOneCorrectionOne"/>
+        <activity android:name=".AfanOneCorrectionTwo"/>
+        <activity android:name=".AfanOneCorrectionThree"/>
+
+        <activity android:name=".HerrOneCorrectionOne"/>
+        <activity android:name=".HerrOneCorrectionTwo"/>
+        <activity android:name=".HerrOneCorrectionThree"/>
+
+        <activity android:name=".EngOneCorrectionOne"/>
+        <activity android:name=".EngOneCorrectionTwo"/>
+        <activity android:name=".EngOneCorrectionThree"/>
+
+        <activity android:name=".AfanTwoTest"/>
+        <activity android:name=".AfanTwoTestOne"/>
+        <activity android:name=".AfanTwoTestTwo"/>
+        <activity android:name=".AfanTwoTestThree"/>
+        <activity android:name=".AfanTwoCorrectionOne"/>
+        <activity android:name=".AfanTwoCorrectionTwo"/>
+        <activity android:name=".AfanTwoCorrectionThree"/>
+
+        <activity android:name=".EngTwoTest"/>
+        <activity android:name=".EngTwoTestOne"/>
+        <activity android:name=".EngTwoTestTwo"/>
+        <activity android:name=".EngTwoTestThree"/>
+        <activity android:name=".EngTwoCorrectionOne"/>
+        <activity android:name=".EngTwoCorrectionTwo"/>
+        <activity android:name=".EngTwoCorrectionThree"/>
+
+        <activity android:name=".HerrTwoTest"/>
+        <activity android:name=".HerrTwoTestOne"/>
+        <activity android:name=".HerrTwoTestTwo"/>
+        <activity android:name=".HerrTwoTestThree"/>
+        <activity android:name=".HerrTwoCorrectionOne"/>
+        <activity android:name=".HerrTwoCorrectionTwo"/>
+        <activity android:name=".HerrTwoCorrectionThree"/>
+
+        <activity android:name=".AfanThreeTest"/>
+        <activity android:name=".AfanThreeTestOne"/>
+        <activity android:name=".AfanThreeTestTwo"/>
+        <activity android:name=".AfanThreeTestThree"/>
+        <activity android:name=".AfanThreeCorrectionOne"/>
+        <activity android:name=".AfanThreeCorrectionTwo"/>
+        <activity android:name=".AfanThreeCorrectionThree"/>
+
+        <activity android:name=".EngThreeTest"/>
+        <activity android:name=".EngThreeTestOne"/>
+        <activity android:name=".EngThreeTestTwo"/>
+        <activity android:name=".EngThreeTestThree"/>
+        <activity android:name=".EngThreeCorrectionOne"/>
+        <activity android:name=".EngThreeCorrectionTwo"/>
+        <activity android:name=".EngThreeCorrectionThree"/>
+
+        <activity android:name=".HerrThreeTest"/>
+        <activity android:name=".HerrThreeTestOne"/>
+        <activity android:name=".HerrThreeTestTwo"/>
+        <activity android:name=".HerrThreeTestThree"/>
+        <activity android:name=".HerrThreeCorrectionOne"/>
+        <activity android:name=".HerrThreeCorrectionTwo"/>
+        <activity android:name=".HerrThreeCorrectionThree"/>
+
+        <activity android:name=".AboutUs"/>
+        <activity android:name=".Advisors"/>
+        <activity android:name=".Developers"/>
+        <activity android:name=".Tafarry"/>
+        <activity android:name=".Gaashaaw"/>
+        <activity android:name=".Biniyam"/>
+        <activity android:name=".Jarso"/>
+        <activity android:name=".Robika"/>
+        <activity android:name=".Keria"/>
+
+
+
+    </application>
+
+</manifest>
